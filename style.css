@@ -1,0 +1,25 @@
+:root {
+  --yellow: rgb(244, 208, 78);
+  --white: rgb(255, 255, 255);
+  --shadow-color: rgba(0, 0, 0, 1);
+
+  --gray-950: rgb(17, 17, 17);
+  --gray-500: rgb(107, 107, 107);
+}
+
+body {
+  background-color: var(--yellow);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-card {
+  background-color: var(--white);
+  width: min(87.2vw, 24rem);
+  border-radius: 1.25rem;
+  box-shadow: 0.5rem 0.5rem var(--shadow-color);
+  border: 1px solid var(--gray-950)
+}
