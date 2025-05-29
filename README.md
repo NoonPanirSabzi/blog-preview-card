@@ -44,7 +44,7 @@ To solve the problem, the key is to establish a relationship between the user's 
 
 In this case, the relative unit **vw** (viewport width) increases as the screen size gets larger. However, it reaches a maximum value of 24rem (24 \* 16px = 384px). Beyond this point, the `min()` function selects 24rem, ensuring the element does not exceed this fixed width.
 
-With this approach, we achieved a reponsive mobile-first design. Our _.blog-card_ element maintains an appropriate size on smaller screens. As the screen size increases, it remains at a fixed width that doesn’t need to grow further, preventing unnecessary scaling.
+With this approach, we achieved a responsive mobile-first design. Our _.blog-card_ element maintains an appropriate size on smaller screens. As the screen size increases, it remains at a fixed width that doesn’t need to grow further, preventing unnecessary scaling.
 
 I applied the same technique to font sizes as well. Here's an example:
 
